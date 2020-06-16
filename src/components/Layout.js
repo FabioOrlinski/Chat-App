@@ -4,7 +4,7 @@ import { USER_CONNECTED, LOGOUT, VERIFY_USER } from '../Events'
 import LoginForm from './LoginForm'
 import ChatContainer from './chats/ChatContainer'
 
-const socketUrl = "http://localhost:3231"
+const socketUrl = "/"
 
 const Layout = () => {
 	const [socket, setSocket ] = useState(null);
